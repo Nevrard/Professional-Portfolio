@@ -1,0 +1,262 @@
+
+/* Defining background color for the Body of the page */
+body {
+    background-color: #d9dcd6;
+    width: 100%;
+}
+/* Defining styling properties for the items in the header */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #319976;
+    color: #ffffff;
+       
+    }
+
+.header h1 {
+    display: inline-block;
+    font-size: 38px;
+}
+
+.header nav {
+    display: flex;
+    padding-top: 10px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    align-content: flex-end;
+   
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 30px
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.background {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/background.jpeg");
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+.background div img{
+    height: 300px;
+}
+.content {
+    width: 100%;
+    display: inline-block;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.AboutMe{
+    display: flex;
+    width:97%;
+    margin-right: 10px;
+    height: 150px;
+    margin-bottom: 30px;
+    
+    /*border: 1px black solid;*/
+
+}
+.About{
+    height: 140px;
+    width: 30%;
+    display: inline-block;
+    border-right: 5px #319976 solid ;
+    padding-top:20px;
+    padding-right: 10px;
+    
+}
+.About h1{
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: right;
+    padding-left:20px;
+    
+}
+.paragraph{
+    padding-top: 10px;
+    width: 70%;
+    
+}
+
+.paragraph p{
+    margin: 20px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Mywork{
+    padding-top: 20px;
+    height: 850px;
+    width: 97%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}
+.work{
+    display: inline-block;
+    height: 100%;
+    border-right:#319976 5px solid;
+    width :30%;
+    
+
+}
+.work h1{
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: right;
+    padding-top: 20px;
+    padding-right:20px;
+}
+.project {
+    margin-top: 20px;
+    height: 100%;
+    display: flex;
+    display: inline-block;
+     width: 70%;
+    /*border: 1px red solid;*/
+    align-items: center;
+    
+ 
+}
+.app1{
+    float: left;
+    width:98%;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-style: solid;
+    border-width: 1px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    border-radius: 10px;
+}
+.work1{
+    background-image: url("../images/Prework.PNG");
+}
+.work2{
+    background-image: url("../images/cheesy_puffs_game.png");
+}
+.work3{
+    background-image: url("../images/Calculator.png");
+}
+.work4{
+    background-image: url("../images/LED_WALL.png");
+}
+.app {
+    margin-right:0;
+    display: flex;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    background-position: center;
+    background-repeat: repeat;
+    justify-content: center;
+    width:45%;
+    height:210px ;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(32, 32, 32, 0.527);
+}
+.display {
+    color:#89ebca;
+    background-color:rgb(131, 144, 158) ;
+    size:30px;
+    opacity:1;
+    text-align:left;
+    margin-left: 0px;
+    margin-top:100px;
+    width: 150px;
+    height: 40px;
+}
+ .display1 {
+       color: lightgoldenrodyellow;
+        background-color: slategrey;
+        size:30px;
+        opacity:0.5;
+        text-align:left;
+        margin-left: 10px;
+        margin-top:0px;
+        width: 150px;
+        height: 25px;
+    
+}
+.span{
+    font-size: 15px;
+}
+
+.ContactMe{
+    width: 97%;;
+    display: flex;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 100px;
+    /*border: 1px rgb(26, 27, 124) solid;*/
+
+}
+.contact{
+    height: 90px;
+    float: left;
+    width: 30%;
+    border-right: #319976 5px solid;
+    padding-top:30px;
+    padding-right: 10px;
+}
+.contact h1 {
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: right;
+    padding-left:20px;
+}
+.links{
+    display: flex;
+    padding-top: 30px;
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    
+}
+.links ul li a {
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+    margin-left: 45px;
+    color: rgb(51, 101, 167);
+    text-decoration:underline;
+   }
+
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
