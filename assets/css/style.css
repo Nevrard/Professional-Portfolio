@@ -23,7 +23,7 @@ body {
     display: inline-block;
     font-size: 38px;
 }
-
+/*Defines the prperties for the linksin the header*/
 .header nav {
     display: flex;
     padding-top: 10px;
@@ -49,15 +49,18 @@ body {
 
 a {
     color: #ffffff;
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 30px
+}
+a:hover{
+    text-decoration: underline;
 }
 
 p {
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+/*Creating thebackgroung image in below the heafer*/
 .background {
     height: 300px;
     width: 100%;
@@ -153,6 +156,7 @@ p {
     
  
 }
+/*Creating the Boxes where will be added application images*/
 .app1{
     display: flex;
     flex-wrap: wrap;
@@ -167,7 +171,13 @@ p {
     background-position: center;
     height: 350px;
     border-radius: 10px;
+    box-shadow: 5px 5px rgba(32, 32, 32, 0.527);
 }
+.app1:hover{
+    opacity: 0.5;
+    
+}
+/*adding images in the boxes*/
 .work1{
     background-image: url("../images/Prework.PNG");
 }
@@ -196,6 +206,11 @@ p {
     height:210px ;
     border-radius: 10px;
     box-shadow: 5px 5px rgba(32, 32, 32, 0.527);
+}
+/*defines behaviour ,when cursor hover the images in the box*/
+.app:hover{
+    opacity: 0.5;
+   
 }
 .display {
     color:#89ebca;
@@ -277,7 +292,8 @@ p {
     padding-left: 80px;
          
    }
-
+   
+/* defines how the contents of the page reacts on the resizing of the screen*/
 
 @media screen and (max-width: 1300px) {
     .app {
@@ -390,42 +406,40 @@ p {
     float: left;
  
 }
+.links ul{
+    display: block;
+}
+.links ul li a{
+    display: block;
+    text-decoration: underline;
+    margin-top: 20px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
 .paragraph{
     width: 96%;
 }
 .project{
     width: 96%;
 }
-
-    }
     
-    @media screen and (max-width: 730px) {
-        
-              
-        .links {
-            justify-content:center;
-            display: block;
-            
-        }
-        .links ul{
-            display: block;
-        }
-        .links ul li a{
-            display: block;
-            text-decoration: underline;
-            margin-top: 20px;
-            padding-left: 10px;
-            margin-top: 10px;
-        }
+ 
 
+ @media screen and (max-width: 490px) {
         .paragraph{
             width: 96%;
         }
         .project{
             width: 96%;
         }
-            
+
     }
+
+
+    }   
+    
+    
 
     
 
