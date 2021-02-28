@@ -3,13 +3,19 @@
 body {
     background-color: #d9dcd6;
     width: 100%;
+    
 }
 /* Defining styling properties for the items in the header */
 .header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #319976;
     color: #ffffff;
+    width: 100;
+
        
     }
 
@@ -26,21 +32,24 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     align-content: flex-end;
-   
+       
 }
 
 .header nav ul {
-    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
 }
 
 .header nav ul li {
+    display: flex;
     display: inline-block;
     margin-left: 25px;
 }
 
 a {
     color: #ffffff;
-    text-decoration: none;
+    text-decoration: underline;
     font-size: 30px
 }
 
@@ -68,22 +77,24 @@ p {
     margin-left: 20px;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    height: auto;
 }
 .AboutMe{
     display: flex;
     width:97%;
     margin-right: 10px;
-    height: 150px;
-    margin-bottom: 30px;
+    height: auto;
+    margin-bottom: 15px;
     
     /*border: 1px black solid;*/
 
 }
 .About{
-    height: 140px;
+    height: auto;
     width: 30%;
     display: inline-block;
-    border-right: 5px #319976 solid ;
+    border-right: 7px #319976 solid ;
     padding-top:20px;
     padding-right: 10px;
     
@@ -96,19 +107,19 @@ p {
     
 }
 .paragraph{
-    padding-top: 10px;
+   
     width: 70%;
     
 }
 
 .paragraph p{
-    margin: 20px;
-    font-size: 15px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:20px;
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .Mywork{
-    padding-top: 20px;
-    height: 850px;
+    padding-top: 10px;
+    height: auto;
     width: 97%;
     display: flex;
     flex-wrap: wrap;
@@ -119,7 +130,7 @@ p {
 .work{
     display: inline-block;
     height: 100%;
-    border-right:#319976 5px solid;
+    border-right:#319976 7px solid;
     width :30%;
     
 
@@ -143,6 +154,8 @@ p {
  
 }
 .app1{
+    display: flex;
+    flex-wrap: wrap;
     float: left;
     width:98%;
     margin-left: 25px;
@@ -170,6 +183,7 @@ p {
 .app {
     margin-right:0;
     display: flex;
+    flex-wrap: wrap;
     margin-left: 25px;
     margin-top: 10px;
     border-style: solid;
@@ -178,7 +192,7 @@ p {
     background-position: center;
     background-repeat: repeat;
     justify-content: center;
-    width:45%;
+    width:47%;
     height:210px ;
     border-radius: 10px;
     box-shadow: 5px 5px rgba(32, 32, 32, 0.527);
@@ -195,15 +209,15 @@ p {
     height: 40px;
 }
  .display1 {
-       color: lightgoldenrodyellow;
-        background-color: slategrey;
-        size:30px;
-        opacity:0.5;
-        text-align:left;
-        margin-left: 10px;
-        margin-top:0px;
-        width: 150px;
-        height: 25px;
+    color:#89ebca;
+    background-color:rgb(131, 144, 158) ;
+    size:50px;
+    opacity:1;
+    text-align:left;
+    margin-left: 0px;
+    margin-top:100px;
+    width: 150px;
+    height: 60px;
     
 }
 .span{
@@ -211,52 +225,215 @@ p {
 }
 
 .ContactMe{
+    display: flex;
     width: 97%;;
     display: flex;
     display: inline-block;
     margin-top: 10px;
     margin-left: 20px;
-    height: 100px;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
     /*border: 1px rgb(26, 27, 124) solid;*/
 
 }
 .contact{
-    height: 90px;
-    float: left;
+    display: inline-block;
+    height: auto;
+   align-items: flex-end;
     width: 30%;
-    border-right: #319976 5px solid;
+    border-right: #319976 7px solid;
     padding-top:30px;
     padding-right: 10px;
+   
+
 }
 .contact h1 {
     font-size: 40px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: right;
-    padding-left:20px;
+    padding-top: 0px;
+    padding-right:5px;
 }
 .links{
     display: flex;
     padding-top: 30px;
-    margin-right: 20px;
+    margin-right: 160px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    justify-content: center;
+    float: right;
+    
+    
     
 }
 .links ul li a {
+    /* display: flex; */
     font-size: 20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:white;
-    margin-left: 45px;
     color: rgb(51, 101, 167);
     text-decoration:underline;
+    padding-left: 80px;
+         
    }
 
 
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+@media screen and (max-width: 1300px) {
+    .app {
+      width: 97%;
+    }
+    .links{
+        margin-right: 50px;
+        }
+        .links ul li a{
+            padding-left: 50px;
+        }
 }
 
+  @media screen and (max-width: 1274px) {
+   
+    .links ul li a{
+        padding-left: 30px;
+    }
+    
+  }
+  @media screen and (max-width: 1033px) {
+    .header h1{
+  font-size: 28px;
+    }
+    .header nav ul li a{
+        font-size: 25px
+    }
+    .About h1{
+        font-size: 30px;
+    }
+    .work h1{
+        font-size: 30px;
+    }
+    .contact h1 {
+        font-size: 30px;
+    }
+    .background div img{
+        width: 250px;
+    }
+    
+
+  }
+  @media screen and (max-width: 1007px) {
+  
+    .links ul li a{
+        padding-left: 30px;
+    }
+    .header {
+        flex-direction: column;
+       
+    }
+    .header nav ul {
+        justify-content:center;
+        display: block;
+    }
+    .header nav ul li{
+        display: block;
+        text-decoration: underline;
+        margin-top: 20px;
+        
+    }
+    .app1{
+        width: 97%;
+    }
+    .header nav ul li a{
+        font-size:30px;
+    }
+    .AboutMe{
+        display: block;
+        justify-content: center;
+       
+    }
+    .About{
+        justify-content: center;
+        width: fit-content;
+     
+        border-right: none;
+        border-bottom:  1px #319976 solid ;
+           
+        
+    }
+    .About h1{
+        float: right;
+    }
+    
+
+    .Mywork{
+        display: block;
+        justify-content: center;
+    }
+    .work{
+        display: block;
+        width: fit-content;
+        border-right: none;
+        height: auto;
+        border-bottom: 1px #319976 solid ;
+    }
+
+.ContactMe{
+    display: block;
+    flex-direction: column;
+}
+.contact{
+    display: block;
+    border-right: none;
+    border-bottom:1px #319976 solid ; 
+    width: fit-content;
+}
+.links{
+    float: left;
+ 
+}
+.paragraph{
+    width: 96%;
+}
+.project{
+    width: 96%;
+}
+
+    }
+    
+    @media screen and (max-width: 730px) {
+        
+              
+        .links {
+            justify-content:center;
+            display: block;
+            
+        }
+        .links ul{
+            display: block;
+        }
+        .links ul li a{
+            display: block;
+            text-decoration: underline;
+            margin-top: 20px;
+            padding-left: 10px;
+            margin-top: 10px;
+        }
+
+        .paragraph{
+            width: 96%;
+        }
+        .project{
+            width: 96%;
+        }
+            
+    }
+
+    
+
+     
+    
+      
+        
+
+    
+
+  
