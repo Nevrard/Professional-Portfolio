@@ -3,8 +3,11 @@
 # Table of contents
 
 .General information
+
 .Specificarons
+
 .Screenshot
+
 .Deployments
 
 ## General informarion
@@ -33,7 +36,7 @@ The Website is name "My Portfolio" , and is composed by 4 majors Parts:
  When the Cursor hover the pictures ,They Change the opacity property.
 
  -All elements are responsive  as  resizing the screen,Which makes the website accessible and can be viewed on all Devices.
-
+stausgit
 ## Scrennshot
 The Full Page- laptop Size
 
