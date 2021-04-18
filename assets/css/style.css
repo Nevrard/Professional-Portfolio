@@ -166,9 +166,9 @@ p {
     margin-right: 25px;
     border-style: solid;
     border-width: 1px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("../images/vibeMusical.png");
     background-size: cover;
-    background-position: center;
+    background-position:top;
     height: 350px;
     border-radius: 10px;
     box-shadow: 5px 5px rgba(32, 32, 32, 0.527);
@@ -179,16 +179,16 @@ p {
 }
 /*adding images in the boxes*/
 .work1{
-    background-image: url("../images/Prework.PNG");
+    background-image: url("../images/Quiz_code.PNG");
 }
 .work2{
-    background-image: url("../images/cheesy_puffs_game.png");
+    background-image: url("../images/weatherDashboard.png");
 }
 .work3{
-    background-image: url("../images/Calculator.png");
+    background-image: url("../images/dailyPlanner.png");
 }
 .work4{
-    background-image: url("../images/LED_WALL.png");
+    background-image: url("../images/passwordGenerator.png");
 }
 .app {
     margin-right:0;
@@ -199,7 +199,7 @@ p {
     border-style: solid;
     border-width: 1px;
     display: inline-block;
-    background-position: center;
+    background-position: top;
     background-repeat: repeat;
     justify-content: center;
     width:47%;
@@ -215,12 +215,12 @@ p {
 .display {
     color:#89ebca;
     background-color:rgb(131, 144, 158) ;
-    size:30px;
+    font-size:15px;
     opacity:1;
     text-align:left;
     margin-left: 0px;
-    margin-top:100px;
-    width: 150px;
+    margin-top:140px;
+    width: 130px;
     height: 40px;
 }
  .display1 {
@@ -237,6 +237,10 @@ p {
 }
 .span{
     font-size: 15px;
+}
+.span::before{
+    content: "\a";
+    white-space: pre;
 }
 
 .ContactMe{
