@@ -40,7 +40,6 @@ stausgit
 ## Scrennshot
 The Full Page- laptop Size
 
-![image](https://user-images.githubusercontent.com/77184762/115131284-eb003d80-9fc4-11eb-8d73-c18a72f2f918.png)
 ![image](https://user-images.githubusercontent.com/77184762/125695579-228a1fb5-c791-47da-8821-035d8ceb23bc.png)
 
 
