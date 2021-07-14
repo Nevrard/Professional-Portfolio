@@ -41,15 +41,18 @@ stausgit
 The Full Page- laptop Size
 
 ![image](https://user-images.githubusercontent.com/77184762/115131284-eb003d80-9fc4-11eb-8d73-c18a72f2f918.png)
-![image](https://user-images.githubusercontent.com/77184762/115131321-403c4f00-9fc5-11eb-8821-72f8b8112c6a.png)
+![image](https://user-images.githubusercontent.com/77184762/125695579-228a1fb5-c791-47da-8821-035d8ceb23bc.png)
+
 
 
 Pull Page when Screen size reduced at size of Iphone 5S
 
-![image](https://user-images.githubusercontent.com/77184762/115131372-af19a800-9fc5-11eb-9e7a-cb885ff5c164.png)
+![image](https://user-images.githubusercontent.com/77184762/125696130-5d4be376-50d0-452a-bbc6-5960e3e1e136.png)
 
 
-![image](https://user-images.githubusercontent.com/77184762/115131398-e720eb00-9fc5-11eb-8b78-d00cbb4bca00.png)
+
+![image](https://user-images.githubusercontent.com/77184762/125696277-60e4784b-e400-4c09-ba19-cc2e2f680339.png)
+
 
 
 ## Deplotements
